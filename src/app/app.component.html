@@ -1,0 +1,120 @@
+
+
+<html lang="en">
+
+<head>
+
+ <title>Codesprint 2</title>
+
+ <meta charset="utf-8">
+
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+
+
+</head>
+
+
+<div class="bg">
+<div class="text-center" style="margin-bottom:20;margin-top:30">
+  
+<div class="logo">
+  <img class="roundedcircle"  src="https://media.istockphoto.com/vectors/gym-icon-vector-id853271840?b=1&k=6&m=853271840&s=612x612&h=oRC1hx_Lj6pI_tXeXKGQE6DWPD_77ZEixcz_o1Tya_4=" alt="" width="100" align="left">
+  </div>
+ <h1>ONE GYM</h1>
+</div>
+
+<br>
+<br>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+ <a class="navbar-brand"></a>
+
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+
+  <span class="navbar-toggler-icon"></span>
+
+ </button>
+
+ <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+  <ul class="navbar-nav">
+
+   <li class="nav-item">
+
+    <a class="nav-link" href="#" >Home</a>
+
+   </li>
+
+   <li class="nav-item">
+
+    <a class="nav-link" routerLink = "/register" >Place Appointment</a>
+
+   </li>
+
+   <li class="nav-item">
+
+    <a class="nav-link"  routerLink = "/view">View Appointment</a>
+
+   </li>
+
+<li class="nav-item">
+
+    <a class="nav-link"  routerLink = "/contact">Contact Us</a>
+
+   </li>
+
+  </ul>
+
+ </div>
+
+
+ <div id="mySidenav" class="sidenav" align="left">
+
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+ 
+  <a href="#">Home</a>
+ 
+  <a routerLink="/register">Place appointment</a>
+ 
+  <a routerLink="/view">View appointment</a>
+ 
+  <a routerLink="/contact">Contact us</a>
+ 
+ </div>
+ 
+ <span style="font-size:30px;cursor:pointer;" onclick="openNav()" align="left">&#9776; </span>
+ 
+ </nav>
+ 
+ <script>
+ 
+ function openNav() {
+ 
+  document.getElementById("mySidenav").style.width = "250px";
+ 
+ }
+ 
+ 
+ 
+ function closeNav() {
+ 
+  document.getElementById("mySidenav").style.width = "0";
+ 
+ }
+ 
+ </script>
+</div>
+
+</html>
+
+<router-outlet></router-outlet>

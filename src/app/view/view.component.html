@@ -1,0 +1,100 @@
+<br>
+<h2>VIEW APPOINTMENT</h2>
+<br>
+<div class="table">
+<table class="table table-hover table-sm" >
+
+
+
+    <thead class="thead-light">
+  
+  
+  
+     <tr>
+  
+  
+  
+      <th> FIRSTNAME</th>
+  
+  
+  
+      <th>LASTNAME</th>
+  
+  
+  
+      <th> AGE</th>
+  
+      <th>EMAIL</th>
+  
+  
+  
+      <th>CITY</th>
+  
+  
+  
+      <th>COUNTRY</th>
+  
+  
+  
+      <th>STATE</th>
+  
+  
+  
+     
+  
+     </tr>
+  
+  
+  
+    </thead>
+  
+  
+  
+    <tbody>
+  
+  
+  
+     <tr *ngFor="let user of registerList">
+  
+  
+  
+      <td>{{user.firstname}}</td>
+  
+  
+  
+      <td>{{user.lastname}}</td>
+  
+  
+  
+      <td>{{user.age}}</td>
+  
+  
+  
+      
+  
+  
+  
+      <td>{{user.email}}</td>
+  
+  
+  
+      <td>{{user.city}}</td>
+  
+  
+  
+      <td>{{user.country}}</td>
+  
+  
+  
+      <td>{{user.state}}</td>
+  
+  
+  
+      <td>{{user.pincode}}</td>
+  
+      </tr>
+    
+      </tbody>
+  
+   </table>
+ </div>

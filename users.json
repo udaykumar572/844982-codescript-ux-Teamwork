@@ -1,0 +1,88 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstname": "apoorva",
+      "lastname": "suswaram",
+      "age": 33,
+      "email": "suswaram@gmail.com",
+      "phone": 978977867,
+      "streetaddress": "dshg",
+      "city": "kurnool",
+      "state": "AP",
+      "country": "india"
+    },
+    {
+      "id": 2,
+      "firstname": "ushaswee",
+      "lastname": "reddy",
+      "age": 23,
+      "email": "usha@gmail.com",
+      "phone": 978977867,
+      "streetaddress": "dshg",
+      "city": "hyd",
+      "state": "AP",
+      "country": "india"
+    },
+    {
+      "id": 3,
+      "firstname": "vaishu",
+      "lastname": "vvvu",
+      "age": 13,
+      "email": "vaishu@gmail.com",
+      "phone": 8778675765,
+      "streetaddress": "dshg",
+      "city": "vizag",
+      "state": "AP",
+      "country": "india"
+    },
+    {
+      "id": 77,
+      "firstname": "apoorva",
+      "lastname": "suswaram",
+      "age": 46,
+      "email": "suswaram@gmail.com",
+      "phone": 978977867,
+      "streetaddress": "dshg",
+      "city": "kurnool",
+      "state": "AP",
+      "country": "india"
+    },
+    {
+      "firstname": "shyamu",
+      "lastname": "kalvakolan",
+      "age": 22,
+      "email": "ushasweereddy4141@gmail.com",
+      "phone": "0987654321",
+      "streetaddress": "asdfghj",
+      "city": "lkjhgfd",
+      "state": "lkjhgfd",
+      "country": "lkjhgfd",
+      "id": 78
+    },
+    {
+      "firstname": "asdfg",
+      "lastname": "asdfv",
+      "age": 21,
+      "email": "ushasweereddy4141@gmail.com",
+      "phone": "9876543254",
+      "streetaddress": "asdfghj",
+      "city": "asdfgh",
+      "state": "sdfgh",
+      "country": "sdfghj",
+      "id": 79
+    },
+    {
+      "firstname": "",
+      "lastname": "",
+      "age": "",
+      "email": "",
+      "phone": "",
+      "streetaddress": "",
+      "city": "",
+      "state": "",
+      "country": "",
+      "id": 80
+    }
+  ]
+}

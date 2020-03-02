@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Fitness</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+
+  <script>
+
+
+
+    function openNav() {
+    
+     document.getElementById("mySidenav").style.width = "250px";
+    
+    }
+    
+    
+    
+    function closeNav() {
+    
+     document.getElementById("mySidenav").style.width = "0";
+    
+    }
+
+
+
+    
+    function autotab(current,to)
+                 {
+                     if (current.getAttribute && current.value.length==current.getAttribute("maxlength")) 
+                     {
+                         to.focus() 
+                     }
+                 }
+
+
+
+
+                 function EnableDisableTextBox() {
+              
+              var chkYes = document.getElementById("chkYes");
+              var trainerName = document.getElementById("trainerName");
+              trainerName.disabled = chkYes.checked ? false : true;
+              if (!trainerName.disabled) {
+                  trainerName.focus();
+              }
+      
+          }
+          function EnableDisableTextBox1() {
+      
+      var chkYes = document.getElementById("chkYes1");
+      var trainerName = document.getElementById("trainerName");
+      trainerName.disabled = chkYes.checked ? false : true;
+      if (!trainerName.disabled) {
+          trainerName.focus();
+      }
+
+  }
+
+
+  function cal() {
+            document.getElementById('inr').value = 500.00;
+            document.getElementById('paisa').value=0.0;
+          }
+          function calc() {
+            document.getElementById('inr').value = 1600.00;
+            document.getElementById('paisa').value=0.0;
+         }
+         function calcu() {
+            document.getElementById('inr').value = 3600.00;
+            document.getElementById('paisa').value=0.0;
+         }
+         function myFun() {
+            var x = document.getElementById("oth");
+            if (x.style.display === "none") {
+              x.style.display = "block";
+            } 
+      else {
+              x.style.display = "none";
+            }
+         }
+
+
+    
+    </script>
+</head>
+<body>
+  <app-root></app-root>
+</body>
+</html>

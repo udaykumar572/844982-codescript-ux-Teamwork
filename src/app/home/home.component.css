@@ -1,0 +1,8 @@
+
+.bg{
+  background-image: url("https://images.pexels.com/photos/235922/pexels-photo-235922.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  background-position: relative;
+  background-repeat: no-repeat;
+  min-height: 700px;
+}
